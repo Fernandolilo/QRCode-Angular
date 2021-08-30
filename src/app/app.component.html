@@ -1,0 +1,43 @@
+
+<h1>Paulo Feli</h1>
+<h2>Dynamically Update QR Code Values</h2>
+
+<div>QR Code: {{ qrCodeVal }}</div>
+<div>Level: {{ level }}</div>
+<div>Width: {{ width }}</div>
+
+<br>
+
+<div>
+  <qr-code [value]="qrCodeVal" [size]="width" [level]="level"></qr-code>
+</div>
+
+
+
+<h4>Change QR Code Info</h4>
+<hr>
+<button style="background-color: rgb(20, 207, 220); margin-block-start: 15px;"  (click)="updateQrInfo('')">Digite algo"</button>
+<hr>
+<label>
+  Update name string: <input [(ngModel)]="qrCodeVal" placeholder="name" />
+</label>
+<br />
+<br />
+
+
+
+
+<br />
+<strong>Update Width</strong>: 
+<button (click)="updateWidth(500)">500</button>
+<button (click)="updateWidth(400)">400</button>
+<button (click)="updateWidth(300)">300</button>
+<button (click)="updateWidth(200)">200</button>
+
+<br />
+
+<strong>Update Level</strong>: 
+<button (click)="updateLevel('L')">L</button>
+<button (click)="updateLevel('M')">M</button>
+<button (click)="updateLevel('Q')">Q</button>
+<button (click)="updateLevel('H')">H</button>

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(226, 238, 185);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    
+}
+h1{
+    color: rgb(3, 3, 77);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: unset, 20px;
+}
+h2{
+    color: rgb(128, 13, 13);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: unset, 20px;
+}   
+h4{
+    color: rgb(128, 13, 13);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: unset, 20px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: unset, 20px;
+}
+div{
+    color: rgb(128, 13, 13);
+    font-size: medium;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: unset, 20px;
+    
+}
+button{
+    font-family: Cambria, Cochin, Georgia;
+    background-clip: unset, 20px;
+    color: darkblue;
+}
+label{
+    font-size: large;
+    color: rgb(128, 13, 13);
+}
+strong{
+    color: rgb(128, 13, 13);
+}
